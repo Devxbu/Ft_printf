@@ -1,4 +1,4 @@
-_This project has been created as part of the 42 curriculum by bahri._
+_This project has been created as part of the 42 curriculum by buranli._
 
 # ft_printf
 

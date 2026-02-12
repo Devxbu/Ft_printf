@@ -2,7 +2,8 @@
 
 int put_hex(unsigned long n, int upper) {
   int len = 0;
-  char *base = upper ? "0123456789ABCDEF" : "0123456789abcdef";
+  char *base =
+      upper ? "0123456789ABCDEF" : "0123456789abcdef"; // tenary degistir
 
   if (n >= 16)
     len += put_hex(n / 16, upper);
