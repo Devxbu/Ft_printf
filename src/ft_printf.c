@@ -40,3 +40,11 @@ int ft_printf(const char *s, ...) {
   va_end(ap);
   return total;
 }
+
+// Hatalar
+// "%"
+// "ndonaoudn%"
+// "daobuo% "
+// "", NULL
+
+// src icinde olup olamaycagini kontrol et
